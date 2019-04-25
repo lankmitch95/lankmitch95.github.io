@@ -1,24 +1,855 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Mitch Lankford</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-        <style>
-            #body {
-                background: purple;
-                padding-top: 45%;
-            }
-            h1 {
-                color: white;
-            }
-            h1:hover {
-                color: purple;
-            }
-            h1:hover ~ #body {
-                background: white;
-            }
-        </style>
-    </head>
-    <body class="text-center" id="body">
-        <h1>mitch lankford</h1>
-    </body>
+<head>
+	<title>Mitch Lankford</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- From GetBootstrap.com -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+	<!-- Fonts -->
+	<!-- #header-l3 -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
+
+	<!-- #header-l1, #header-l2 -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+
+
+	<!-- Icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<script src="https://use.fontawesome.com/f77b8fccbe.js"></script>
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="favicon.ico" />
+
+	<!-- Custom stylesheet -->
+ 	<link rel="stylesheet" href="styling.css">
+
+</head>
+<body>
+
+<div class="container-fluid text-right">
+
+	<div class="row">
+
+		<div class="col-sm-4" id="header-col">
+			<div class="header-spacer"></div>
+			<h6 id="header-l1" style="display:none;">hi&nbsp&nbsp&nbsp</h6>
+			<h6 id="header-l2" style="display:none;">I am...</h6>
+			<h1 id="header-l3" style="display:none;">
+					<span style="color:#0F84F3;">M</span><!--
+				--><span style="color:#FF311F;">I</span><!--
+				--><span style="color:#FFB900;">T</span><!--
+				--><span style="color:#0F84F3;">C</span><!--
+				--><span style="color:#05A955;">H</span><br />
+					<span style="color:#FF311F;">L</span><!--
+				--><span style="color:#FFB900;">A</span><!--
+				--><span style="color:#0F84F3;">N</span><!--
+				--><span style="color:#05A955;">K</span><!--
+				--><span style="color:#FF311F;">F</span><!--
+				--><span style="color:#0F84F3;">O</span><!--
+				--><span style="color:#FF311F;">R</span><!--
+				--><span style="color:#FFB900;">D</span>
+			</h1>
+			<h4 id="header-l4" style="display:none;">I make websites<br />and do other stuff</h4>
+
+			<h4 id="header-l5" style="display:none;">here's the stuff&nbsp<i class="material-icons" style="vertical-align:-3px;">arrow_forward</i></h4>
+
+			<!-- This replaces the <h4> w/ social icons with one that stickies to the bottom of the page, on mobile -->
+			<h4 id="header-l5-mobile" style="display:none;">scroll <i class="material-icons" style="vertical-align:-3px;">arrow_downward</i> to check it out&nbsp</h4>
+
+			<br />
+			<h4 id="header-l6" style="display:none;">here's my stuff&nbsp<i class="material-icons" style="vertical-align:-3px;">arrow_downward</i></h4>
+			<h4 id="header-l7" style="display:none;" class="sticky">
+				<a href="https://www.gitlab.com/lemitch/" target="_blank"><i class="fa fa-gitlab" aria-hidden="true" style="color:#FF6000; font-size:1.5em !important;"
+				data-toggle="tooltip" title="GitLab" data-placement="bottom"></i></a>
+				&nbsp
+				<a href="https://www.linkedin.com/in/mitch-lankford-bgsu/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true" style="color:#0D76AF; font-size:1.5em !important;" data-toggle="tooltip" title="LinkedIn" data-placement="bottom"></i></a>
+				&nbsp
+				<a href="mailto:lemitch@bgsu.edu"><i class="fa fa-envelope" aria-hidden="true" style="color:#FFB900; font-size:1.5em !important;" data-toggle="tooltip" title="Email" data-placement="bottom"></i></a>
+			</h4>
+			<div class="header-spacer"></div>
+
+		</div>
+
+		<div class="col-sm-6 offset-sm-4" id="main-col" style="display:none;">
+
+<script type="text/javascript">
+	$("#main-col").fadeOut(0);
+</script>
+
+			<!-- Moving to the Desert -->
+			<div class="post">
+				<h1 class="text-left">Moving to the Desert</h1>
+
+				<h4 class="text-left">June 2018</h4>
+
+				<div class="polaroid" data-toggle="modal" data-target="#move_car_modal">
+					<img src="images/move_car.jpg" class="post-img" alt="move car">
+					<div class="post-img-text">
+						<p>Packed Cars</p>
+					</div>
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="move_car_modal" tabindex="-1" role="dialog" aria-labelledby="move_car_modal_label" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				    <div class="modal-content">
+				      <div class="modal-body text-center">
+				        <img src="images/move_car.jpg" style="width: 90%; height: auto;">
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+				<p class="post-text">I'm leaving Bowling Green and all of Ohio behind to fulfill a dream of moving west. I had never been further west than Indiana until Summer 2017 when I got to experience incredible beauty and adventure of Arizona. After traveling around the state for a week my girlfriend and I were hooked, and the idea of moving here began brewing in our heads. As we approached graduation we furvently applied to jobs in Arizona and luckily Amanda landed the job of her dreams. We packed up our cars and got rid of everything else, and voyaged 2,000 miles west to our new home of Avondale, AZ.</p>
+
+
+				<div class="polaroid-third" data-toggle="modal" data-target="#move_self_modal">
+					<img src="images/move_self.jpg" class="post-img" alt="move self">
+					<div class="post-img-text">
+						<p>My Home for 30 Hours</p>
+					</div>
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="move_self_modal" tabindex="-1" role="dialog" aria-labelledby="move_car_modal_label" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				    <div class="modal-content">
+				      <div class="modal-body text-center">
+				        <img src="images/move_self.jpg" style="width: 90%; height: auto;">
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+				<div class="polaroid-third" data-toggle="modal" data-target="#move_map_modal">
+					<img src="images/move_map.png" class="post-img" alt="move map">
+					<div class="post-img-text">
+						<p>Navigation at the Journey's Beginning</p>
+					</div>
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="move_map_modal" tabindex="-1" role="dialog" aria-labelledby="move_car_modal_label" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				    <div class="modal-content">
+				      <div class="modal-body text-center">
+				        <img src="images/move_map.png" style="width: 90%; height: auto;">
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+				<div class="polaroid-third" data-toggle="modal" data-target="#move_cats_modal">
+					<img src="images/move_cats.jpg" class="post-img" alt="move cats">
+					<div class="post-img-text">
+						<p>Cats Simon and CoolWhip Chilling in the Back</p>
+					</div>
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="move_cats_modal" tabindex="-1" role="dialog" aria-labelledby="move_car_modal_label" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				    <div class="modal-content">
+				      <div class="modal-body text-center">
+				        <img src="images/move_cats.jpg" style="width: 90%; height: auto;">
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+
+			</div>
+
+
+			<!-- GRADUATION -->
+			<div class="post">
+				<h1 class="text-left" style="color: #E86B97;"><strong style="background-color: #6F3488; font-weight: 900;">&nbspGRADUATION&nbsp</strong><img src="images/kanye_bear.jpg" style="max-height: 1.5em;"></h1>
+
+				<h4 class="text-left">May 2018</h4>
+
+				<div class="polaroid" data-toggle="modal" data-target="#graduation_main_modal">
+					<img src="images/graduation_main.jpg" class="post-img" alt="graduation_main">
+					<div class="post-img-text">
+						<p>BGSU Graduation 2018</p>
+					</div>
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="graduation_main_modal" tabindex="-1" role="dialog" aria-labelledby="graduation_main_modal_label" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				    <div class="modal-content">
+				      <div class="modal-body text-center">
+				        <img src="images/graduation_main.jpg" style="width: 90%; height: auto;">
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+				<p class="post-text">My days at Bowling Green State University finally came to a screeching halt, as I crammed the remaining classes in my program into the Spring 2018 semester and raced toward the finish line. I began life at BGSU in 2013 as a High School English Education Major, and after a year of learning about child psychology and observing high school classes I realized I absolutely did not like teaching. It took very little time for me to connect my love of computers and technology with my passive interest in software, and I quickly switched majors to CS. I spent the next 4 years catching up on Math classes and adding as many extracuricular CS classes I could fit, like Windows App Development and Web Development. The latter immediately sparked my interest and I began focusing all of my class projects on web development. I even built a binary signal converter using html tables to produce graph lines. Now that I've graduated I'm going to miss the small town I've called home for 5 years, but I'm excited to propel my life forward into the next dimension.</p>
+
+				<div class="polaroid-half" data-toggle="modal" data-target="#graduation_caps_modal">
+					<img src="images/graduation_caps.jpg" class="post-img" alt="graduation caps">
+					<div class="post-img-text">
+						<p>Looking back at college and forward to the future</p>
+					</div>
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="graduation_caps_modal" tabindex="-1" role="dialog" aria-labelledby="graduation_caps_modal_label" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				    <div class="modal-content">
+				      <div class="modal-body text-center">
+				        <img src="images/graduation_caps.jpg" style="width: 90%; height: auto;">
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+				<div class="polaroid-half" data-toggle="modal" data-target="#graduation_self_modal">
+					<img src="images/graduation_self.jpg" class="post-img">
+					<div class="post-img-text">
+						<p>In front of the CS Department</p>
+					</div>
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="graduation_self_modal" tabindex="-1" role="dialog" aria-labelledby="graduation_self_modal_label" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				    <div class="modal-content">
+				      <div class="modal-body text-center">
+				        <img src="images/graduation_self.jpg" style="width: 90%; height: auto;">
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+			</div>
+
+
+			<!-- CSI-DB -->
+			<div class="post">
+				<h1 class="text-left">Senior Software Project</h1>
+
+				<h4 class="text-left">May of 2018</h4>
+
+				<div class="polaroid" data-toggle="modal" data-target="#csidb_dash_modal">
+					<img src="images/csidb_dash.png" class="post-img" alt="mccoy insurance agency">
+					<div class="post-img-text">
+						<p>Student Dashboard</p>
+					</div>
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="csidb_dash_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				    <div class="modal-content">
+				      <div class="modal-body text-center">
+				        <img src="images/csidb_dash.png" style="width: 90%; height: auto;">
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+
+				<p class="post-text">The Senior Software Project was a semester long class dedicated to learning the sotware development cycle in a hands-on way. The class was divided into teams of 3-7 and assigned real-world clients who needed different software applications built. Our client was the CS Internship coordinator at our university, and he wanted a central web-based hub to handle the CS Internship application process. The software neeeded to handle the process of students applying for an internship and the coordinator approving/denying the application. It also needed to handle file uploads, user-types, and administative access.</p>
+
+				<div class="polaroid-half" data-toggle="modal" data-target="#csidb_app_modal">
+					<img src="images/csidb_app.png" class="post-img" alt="mccoy insurance agency">
+					<div class="post-img-text">
+						<p>Internship Application</p>
+					</div>
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="csidb_app_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				    <div class="modal-content">
+				      <div class="modal-body text-center">
+				        <img src="images/csidb_app.png" style="width: 90%; height: auto;">
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+
+				<div class="polaroid-half" data-toggle="modal" data-target="#csidb_apps_modal">
+					<img src="images/csidb_apps.png" class="post-img" alt="mccoy insurance agency">
+					<div class="post-img-text">
+						<p>Submitted Apps</p>
+					</div>
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="csidb_apps_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				    <div class="modal-content">
+				      <div class="modal-body text-center">
+				        <img src="images/csidb_apps.png" style="width: 90%; height: auto;">
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+
+				<p class="post-text">This class allowed me to experience and implement the Agile Development Method first-hand; creating user stories and dividing them into iterations with milestones, and utilizing Git version control to push features to production. The main struggle we faced with this project was learning a new framework while simultaneously working on the project. The application was built with the Laravel MVC framework, and none of my team had any experience with an MVC framework. It was difficult to set it up on our personal machines and coordinate the features and their files, but we ultimately began running smoothely after the first 2 iterations. Our software didn't end up needing to be very complex – basically a front-end database portal with user-types and file handling, but the main takeaway from this class was direct exposure to the software development cycle.</p>
+
+
+			</div>
+
+
+			<!-- PPW -->
+			<div class="post">
+				<h1 class="text-left">Co-op at PropertyPresWizard, LLC.</h1>
+
+				<h4 class="text-left">December 2017</h4>
+
+				<div class="polaroid" data-toggle="modal" data-target="#ppw_news_feed_modal">
+					<img src="images/ppw_news_feed.PNG" class="post-img" alt="PPW News Feed">
+					<div class="post-img-text">
+						<p>News Feed</p>
+					</div>
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="ppw_news_feed_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				    <div class="modal-content">
+				      <div class="modal-body text-center">
+				        <img src="images/ppw_news_feed.PNG" style="width: 90%; height: auto;">
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+				<p class="post-text">This project was the greatest achievement of my career in programming to date. I was able to land a co-op position at my #1 choice of company, PropertyPresWizard. This co-op helped me evolve from CS student to professional web developer. PPW was my #1 choice because I knew there was a lot I could learn from their close-knit team of developers, and I was not disappointed.</p>
+
+				<div class="polaroid-third" data-toggle="modal" data-target="#ppw_create-post-form_modal">
+					<img src="images/ppw_create-post-form.PNG" class="post-img" alt="PPW Create a Post">
+					<div class="post-img-text">
+						<p>Create a Post</p>
+					</div>
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="ppw_create-post-form_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				    <div class="modal-content">
+				      <div class="modal-body text-center">
+				        <img src="images/ppw_create-post-form.PNG" style="width: 90%; height: auto;">
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+				<div class="polaroid-third" data-toggle="modal" data-target="#ppw_avatar-selection_modal">
+					<img src="images/ppw_avatar-selection.PNG" class="post-img" alt="PPW Avatar Selection">
+					<div class="post-img-text">
+						<p>Avatar Selection</p>
+					</div>
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="ppw_avatar-selection_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				    <div class="modal-content">
+				      <div class="modal-body text-center">
+				        <img src="images/ppw_avatar-selection.PNG" style="width: 90%; height: auto;">
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+				<div class="polaroid-third" data-toggle="modal" data-target="#ppw_report_modal">
+					<img src="images/ppw_report.PNG" class="post-img" alt="PPW Data Report">
+					<div class="post-img-text">
+						<p>Data Report</p>
+					</div>
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="ppw_report_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				    <div class="modal-content">
+				      <div class="modal-body text-center">
+				        <img src="images/ppw_report.PNG" style="width: 90%; height: auto;">
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+
+				<p class="post-text">I worked on a 'News Feed' software feature for the duration of my co-op. The company needed a way to handle communication within their web application and I was responsible for the whole project. I designed the News Feed to allow users to create posts like on social networks, within their organization. PPW clients are often teams or entire companies, and the News Feed would provide them a place to discuss work-related issues, right inside the software. It also allowed our company, PPW, to post news of software updates and other administrative details directly to their clients.</p>
+
+				<p class="post-text">I faced a variety of issues over the 17-week co-op. I not only had to build the feature from the ground up, but also integrate it with their existing enterprise software. I had to learn their database and AWS storage systems and get used to their custom version of jQuery. I managed to pull it off with some outstanding help from their talented team of developers.</p>				
+
+			</div>
+
+
+			<!-- Barber Lounge Toledo -->
+			<div class="post">
+				<h1 class="text-left">Barber Lounge Toledo</h1>
+
+				<h4 class="text-left">November 2017</h4>
+
+				<div class="polaroid" data-toggle="modal" data-target="#exampleModal">
+					<img src="images/barberlounge_main.png" class="post-img" alt="barber lounge main">
+					<div class="post-img-text">
+						<p>Barber Lounge Homepage</p>
+					</div>
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				    <div class="modal-content">
+				      <div class="modal-body text-center">
+				        <img src="images/barberlounge_main.png" style="width: 90%; height: auto;">
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+				<p class="post-text">I was hired to redesign an outdated site for a high-end barbershop. The client wanted a modern design and integration with the MindBody Appointment App. This was my biggest project to date and required a lot of time working with the client to nail down the design they envisioned.</p>
+
+				<div class="polaroid-third" data-toggle="modal" data-target="#barberlounge_booking_modal">
+					<img src="images/barberlounge_booking.png" class="post-img" alt="barber lounge mindbody booking">
+					<div class="post-img-text">
+						<p>MindBody Integration</p>
+					</div>
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="barberlounge_booking_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				    <div class="modal-content">
+				      <div class="modal-body text-center">
+				        <img src="images/barberlounge_booking.png" style="width: 90%; height: auto;">
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+				<div class="polaroid-third" data-toggle="modal" data-target="#barberlounge_services_modal">
+					<img src="images/barberlounge_services.png" class="post-img" alt="barber lounge services">
+					<div class="post-img-text">
+						<p>Interactive Services Menu</p>
+					</div>
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="barberlounge_services_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				    <div class="modal-content">
+				      <div class="modal-body text-center">
+				        <img src="images/barberlounge_services.png" style="width: 90%; height: auto;">
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+				<div class="polaroid-third" data-toggle="modal" data-target="#barberlounge_contact_modal">
+					<img src="images/barberlounge_contact.png" class="post-img" alt="barber lounge contact map">
+					<div class="post-img-text">
+						<p>Custom Contact Panel</p>
+					</div>
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="barberlounge_contact_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				    <div class="modal-content">
+				      <div class="modal-body text-center">
+				        <img src="images/barberlounge_contact.png" style="width: 90%; height: auto;">
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+
+				<p class="post-text">With this project the main struggle I faced was bringing the clients' vision to life. They wanted a cross between their own design scheme and that of the MindBody App, and wanted it to all look similar to another barbershop site they found. In the end I believe the site was a success, and is now my most impressive design to date.</p>
+
+			</div>
+
+
+			<!-- Nate Kester - Saxophonist -->
+			<div class="post">
+				<h1 class="text-left">Nate Kester - Saxophonist</h1>
+
+				<h4 class="text-left">July 2017</h4>
+
+				<div class="polaroid" data-toggle="modal" data-target="#kester_main_modal">
+					<img src="images/kester_main.png" class="post-img" alt="kester main">
+					<div class="post-img-text">
+						<p>Nate Kester Group Homepage</p>
+					</div>
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="kester_main_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				    <div class="modal-content">
+				      <div class="modal-body text-center">
+				        <img src="images/kester_main.png" style="width: 90%; height: auto;">
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+
+				<p class="post-text">I built this site for a musician client who was promoting his debut album, "The Nate Kester Group". He also wanted a platform to advertise upcoming shows. I set up an administration subdomain that enables him to add upcoming tour dates as he books them.</p>
+
+				<div class="polaroid-half" data-toggle="modal" data-target="#kester_spotify_modal">
+					<img src="images/kester_spotify.png" class="post-img" alt="kester spotify">
+					<div class="post-img-text">
+						<p>Spotify API Integration</p>
+					</div>
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="kester_spotify_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				    <div class="modal-content">
+				      <div class="modal-body text-center">
+				        <img src="images/kester_spotify.png" style="width: 90%; height: auto;">
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+
+				<div class="polaroid-half" data-toggle="modal" data-target="#kester_contact_modal">
+					<img src="images/kester_contact.png" class="post-img" alt="kester contact">
+					<div class="post-img-text">
+						<p>Contact Form</p>
+					</div>
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="kester_contact_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				    <div class="modal-content">
+				      <div class="modal-body text-center">
+				        <img src="images/kester_contact.png" style="width: 90%; height: auto;">
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+
+				<p class="post-text">The main struggle I faced with this project was setting up a system to sell sheet music PDFs directly from the site. After exploring his options as far as managing document sales and payment processes I determined there was no real solution that would allow him to make a profit, as commerce hosting services require monthly payment plans that he couldn't afford. We compromised with a simple message directing visitors interested in purchasing sheet music to contact the client directly. To support this I added a contact form that automatically emails the client any messages submitted on the site.</p>
+
+			</div>
+
+
+			<!-- Arizona Road Trip -->
+			<div class="post">
+				<h1 class="text-left">Arizona Road Trip</h1>
+
+				<h4 class="text-left">May of 2017</h4>
+
+				<div class="polaroid" data-toggle="modal" data-target="#arizona_fam_modal">
+					<img src="images/arizona_fam.jpg" class="post-img" alt="arizona family">
+					<div class="post-img-text">
+						<p>The Family</p>
+					</div>
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="arizona_fam_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				    <div class="modal-content">
+				      <div class="modal-body text-center">
+				        <img src="images/arizona_fam.jpg" style="width: 90%; height: auto;">
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+
+				<p class="post-text">At the beginning of Summer 2017, my girlfriend Amanda, her dad and sister and I took a week-long road trip around Arizona. I'd never been further west than Indiana before and the area proved to be incredible. Beautiful landscapes in every direction, warm sunny weather, and the influence of southwestern culture in the buildings and art. Amanda and I liked the state so much that we eventually decided to move there.</p>
+
+				<div class="polaroid-third" data-toggle="modal" data-target="#arizona_canyon_modal">
+					<img src="images/arizona_canyon.jpg" class="post-img" alt="arizona grand canyon">
+					<div class="post-img-text">
+						<p>Grand Canyon</p>
+					</div>
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="arizona_canyon_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				    <div class="modal-content">
+				      <div class="modal-body text-center">
+				        <img src="images/arizona_canyon.jpg" style="width: 90%; height: auto;">
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+
+				<div class="polaroid-third" data-toggle="modal" data-target="#arizona_train_modal">
+					<img src="images/arizona_train.jpg" class="post-img" alt="arizona train">
+					<div class="post-img-text">
+						<p>Train Tour of Sedona Area</p>
+					</div>
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="arizona_train_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				    <div class="modal-content">
+				      <div class="modal-body text-center">
+				        <img src="images/arizona_train.jpg" style="width: 90%; height: auto;">
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+
+				<div class="polaroid-third" data-toggle="modal" data-target="#arizona_petrified_modal">
+					<img src="images/arizona_petrified.jpg" class="post-img" alt="arizona petrified wood">
+					<div class="post-img-text">
+						<p>Petrified Wood</p>
+					</div>
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="arizona_petrified_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				    <div class="modal-content">
+				      <div class="modal-body text-center">
+				        <img src="images/arizona_petrified.jpg" style="width: 90%; height: auto;">
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+
+			</div>
+
+
+			<!-- McCoy Insurance Agency, Inc -->
+			<div class="post">
+				<h1 class="text-left">McCoy Insurance Agency, Inc</h1>
+
+				<h4 class="text-left">March of 2017</h4>
+
+				<div class="polaroid" data-toggle="modal" data-target="#mccoy_homepage_modal">
+					<img src="images/mccoy_homepage.png" class="post-img" alt="mccoy insurance agency">
+					<div class="post-img-text">
+						<p>Insurance Agency Homepage</p>
+					</div>
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="mccoy_homepage_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				    <div class="modal-content">
+				      <div class="modal-body text-center">
+				        <img src="images/mccoy_homepage.png" style="width: 90%; height: auto;">
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+
+				<p class="post-text">This site I built for an insurance agency was the first professional development job I've completed, before even finishing my own personal portfolio site. The previous semester I had completed Intro to Web Development at BGSU which really sparked my interest in the focus, especially the Design aspect. In that class I learned Bootstrap 3 which I used to build this site. I learned to position elements in the webpage to be balanced and aesthetically pleasing. I struggled in connecting to the FTP server that was hosting the company's previous site but eventually learned the system and successfully uploaded the new build.</p>
+
+				<div class="polaroid-half" data-toggle="modal" data-target="#mccoy_products_modal">
+					<img src="images/mccoy_products.png" class="post-img" alt="mccoy insurance agency">
+					<div class="post-img-text">
+						<p>Interactive Product Icons</p>
+					</div>
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="mccoy_products_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				    <div class="modal-content">
+				      <div class="modal-body text-center">
+				        <img src="images/mccoy_products.png" style="width: 90%; height: auto;">
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+
+				<div class="polaroid-half" data-toggle="modal" data-target="#mccoy_contact_modal">
+					<img src="images/mccoy_contact.png" class="post-img" alt="mccoy insurance agency">
+					<div class="post-img-text">
+						<p>Contact Page with Google Map</p>
+					</div>
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="mccoy_contact_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				    <div class="modal-content">
+				      <div class="modal-body text-center">
+				        <img src="images/mccoy_contact.png" style="width: 90%; height: auto;">
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+
+			</div>
+
+			
+			<!-- Europe -->
+			<div class="post">
+				<h1 class="text-left">Europe</h1>
+
+				<h4 class="text-left">Summer of 2016</h4>
+				
+				<p class="post-text">Around the end of 2015 my girlfriend Amanda and I made a life changing decision by signing up for a 4 week Art & Architecture tour of London, Barcelona, Florence and Rome, lasting from mid May - mid June of 2016. That became one of the most important months of our lives, as we had magnificent experiences with a group of 15 new friends.</p>
+
+				<div class="polaroid" data-toggle="modal" data-target="#colosseum_modal">
+					<img src="images/colosseum.jpg" class="post-img" alt="colosseum">
+					<div class="post-img-text">
+						<p>Amanda and I near ground level at the Colosseum in Rome</p>
+					</div>
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="colosseum_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				    <div class="modal-content">
+				      <div class="modal-body text-center">
+				        <img src="images/colosseum.jpg" style="width: 90%; height: auto;">
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+
+				<p class="post-text">Some highlights of the trip include <i>Stonehenge</i> in Wiltshire, England, Michaelangelo's <i>Pietà</i> in the Vatican, Rome, and the local nightlife across London and Florence</p>
+
+				<div class="polaroid-third" data-toggle="modal" data-target="#london_bridge_modal">
+					<img src="images/london_bridge.jpg" class="post-img" alt="london bridge">
+					<div class="post-img-text">
+						<p>London Bridge</p>
+					</div>
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="london_bridge_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				    <div class="modal-content">
+				      <div class="modal-body text-center">
+				        <img src="images/london_bridge.jpg" style="width: 90%; height: auto;">
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+				<div class="polaroid-third" data-toggle="modal" data-target="#amanda_london_modal">
+					<img src="images/amanda_london.jpg" class="post-img" alt="amanda london">
+					<div class="post-img-text">
+						<p>Millennium Bridge</p>
+					</div>
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="amanda_london_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				    <div class="modal-content">
+				      <div class="modal-body text-center">
+				        <img src="images/amanda_london.jpg" style="width: 90%; height: auto;">
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+				<div class="polaroid-third" data-toggle="modal" data-target="#vatican_crowd_modal">
+					<img src="images/vatican_crowd.jpg" class="post-img" alt="vatican crowd">
+					<div class="post-img-text">
+						<p>St. Peter's, Vatican</p>
+					</div>
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="vatican_crowd_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				    <div class="modal-content">
+				      <div class="modal-body text-center">
+				        <img src="images/vatican_crowd.jpg" style="width: 90%; height: auto;">
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+
+			</div>
+
+		</div>
+
+		
+<h4 id="header-l7-mobile" class="sticky">
+	<a href="https://www.gitlab.com/lemitch/" target="_blank"><i class="fa fa-gitlab" aria-hidden="true" style="color:#FF6000; font-size:1.5em !important;"
+	data-toggle="tooltip" title="GitLab" data-placement="bottom"></i></a>
+	&nbsp
+	<a href="https://www.linkedin.com/in/mitch-lankford-bgsu/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true" style="color:#0D76AF; font-size:1.5em !important;" data-toggle="tooltip" title="LinkedIn" data-placement="bottom"></i></a>
+	&nbsp
+	<a href="mailto:lankmitch95@gmail.com"><i class="fa fa-envelope" aria-hidden="true" style="color:#FFB900; font-size:1.5em !important;" data-toggle="tooltip" title="Email" data-placement="bottom"></i></a>
+</h4>
+
+		<div class="col-sm-2"></div>
+
+	</div>
+</div>
+
+
+<script type="text/javascript">
+	
+$(document).ready(function() {
+
+	//tooltips
+	$("[data-toggle='tooltip']").tooltip();
+
+	$("#header-l1").delay(1000).fadeIn();
+	$("#header-l2").delay(2000).fadeIn();
+	$("#header-l3").delay(3500).fadeIn();
+
+	if ($(window).width() <= 800) {
+		$("#header-l7-mobile").delay(3500).fadeIn();
+	}
+
+	$("#header-l4").delay(5000).fadeIn();
+
+	if ($(window).width() > 800) {
+		$("#header-l5").delay(7000).fadeIn();
+	} else {
+		$("#header-l5-mobile").delay(7000).fadeIn();
+	}
+
+	// uncomment for main column to delay fadeIn
+	$("#main-col").delay(3500).fadeIn(800);
+
+	if ($(window).width() > 800) {
+		$("#header-l6").delay(11000).fadeIn();
+	}
+
+	// if not on mobile screen size
+	if ($(window).width() > 800) {
+		$("#header-l7").delay(11000).fadeIn();
+	} else {
+	}
+
+});
+
+</script>
+
+</body>
 </html>
